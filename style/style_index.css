@@ -1,0 +1,7 @@
+ .image-container {
+  display: flex;
+}
+.image-container img {
+  height: auto; /* アスペクト比を保持するため */
+  margin-right: 10px; /* 画像間の間隔を調整 */
+}
