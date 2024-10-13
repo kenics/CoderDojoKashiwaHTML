@@ -1,0 +1,117 @@
+.image-container {
+  display: flex;
+}
+.image-container img {
+  height: auto; /* アスペクト比を保持するため */
+  margin-right: 10px; /* 画像間の間隔を調整 */
+}
+
+body{
+  margin: 0px,0px,0px,0px;
+  background-color:#efefef;
+  font-size: 1rem;
+}
+
+strong{
+  font-size: 1.4rem;
+}
+/* フォントサイズ */
+
+.rem2{
+  font-size: 2rem;
+}
+.rem12{
+  font-size: 1.2rem;
+}
+.rem10{
+  font-size: 1.0rem;
+}
+
+.rem08{
+  font-size: 0.8rem;
+}
+
+
+
+
+div.header{
+  /* background-color:#ff8888; */
+}
+div.contents{
+  /* background-color:#88ff88; */
+  /*  clear:both */
+}
+div.contest-header{
+
+}
+
+div.content-item{
+  width: 33.3%; 
+  /* background-color:purple; */
+  /* float:left */
+  /* border: 1px #333333 solid; */
+}
+
+
+div.footer{
+  /*  background-color:#8888ff; */
+  /* clear:both */
+}
+
+div.bg_color01{
+  background-color:#ff99ff30; 
+}
+div.bg_color02{
+  background-color:#ffffcc50; 
+}
+div.bg_color03{
+  background-color:#00cccc20; 
+}
+
+
+p{
+  margin-top: 2rem;
+  margin-right: 5rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  width: 28rem;  
+  line-height: 1.7rem;
+  color: #333333;
+}
+
+p.p_rem08w32{
+  font-size: 0.8rem;
+  width: 32rem;
+}
+p.p_w32{
+  width: 32rem;
+}
+
+
+ul{
+  margin-top: 0em;
+  margin-right: 5em;
+  margin-bottom:1em;
+  margin-left: 5em;
+  width: 28em;
+  line-height: 1.7em;  
+  color: #333333;
+}
+/* スマホ向けの調整 */
+/* @media only screen and (min-width: 600px) {*/
+@media only screen and (max-width: 750px) {  
+  p {
+    margin: 1rem;  /* スマホでは margin を小さくする */
+    width: 100%;  /* 幅を自動調整 */
+  }
+  ul{
+    margin: 1rem;  /* スマホでは margin を小さくする */
+    width: 100%;  /* 幅を自動調整 */
+  }
+  div.content-item{
+    /* width: 33.3%; */
+    /* background-color:purple; */
+    /* float:left */
+    /* border: 1px #333333 solid; */
+  }
+}
