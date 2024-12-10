@@ -93,7 +93,12 @@ p.p_w32{
 p.p_bule99{
   color: #000099;
 }
-
+span.p_w32{
+  width: 32rem;
+}
+span.p_bule99{
+  color: #000099;
+}
 
 ul{
   margin-top: 0em;
